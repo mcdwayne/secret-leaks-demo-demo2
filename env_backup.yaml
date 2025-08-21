@@ -1,0 +1,53 @@
+# Environment Backup Configuration
+# WARNING: This file contains sensitive configuration data
+# DO NOT commit to version control
+
+# AWS Configuration
+aws_access_key_id: AKIAIOSFODNN7EXAMPLE
+aws_secret_access_key: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+aws_default_region: us-east-1
+aws_bucket_name: my-production-bucket
+
+# Database Configuration
+database_url: postgresql://username:password123@localhost:5432/production_db
+redis_url: redis://localhost:6379
+mongodb_uri: mongodb://admin:secretpass@localhost:27017/prod
+
+# API Keys
+trello_api_key: 1234567890abcdef1234567890abcdef
+trello_token: 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef
+slack_webhook_url: https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX
+github_token: ghp_1234567890abcdef1234567890abcdef12345678
+
+# Email Configuration
+smtp_host: smtp.gmail.com
+smtp_port: 587
+smtp_username: admin@company.com
+smtp_password: mySecureEmailPassword123
+
+# Payment Processing
+stripe_secret_key: sk_test_1234567890abcdef1234567890abcdef
+stripe_publishable_key: pk_test_1234567890abcdef1234567890abcdef
+paypal_client_id: AQKjanmQSZKjIhnAkVqOfqnYkVcVUKLQrwBb1
+paypal_secret: EO5DN3HIOaLI9Fy88UOvO7Ah6itgLDuU845FpIBAyNf
+
+# Social Media
+facebook_app_id: 123456789012345
+facebook_app_secret: abcdef1234567890abcdef1234567890
+twitter_api_key: 1234567890abcdef1234567890abcdef
+twitter_api_secret: abcdef1234567890abcdef1234567890abcdef1234567890abcdef
+
+# Monitoring & Analytics
+new_relic_license_key: 1234567890abcdef1234567890abcdef1234567890abcdef
+sentry_dsn: https://1234567890abcdef1234567890abcdef@o123456.ingest.sentry.io/123456
+google_analytics_id: GA-123456789-1
+
+# Security
+jwt_secret: mySuperSecretJWTKey1234567890abcdef
+encryption_key: 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef
+session_secret: mySessionSecretKey1234567890abcdef
+
+# Third Party Services
+sendgrid_api_key: SG.1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef
+twilio_account_sid: AC1234567890abcdef1234567890abcdef
+twilio_auth_token: 1234567890abcdef1234567890abcdef
